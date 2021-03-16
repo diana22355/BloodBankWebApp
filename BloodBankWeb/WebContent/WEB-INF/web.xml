@@ -20,9 +20,9 @@
     "http://java.sun.com/dtd/web-app_2_3.dtd">
 <web-app>
 
-<display-name>ICBank</display-name>
+<display-name>ICBlood Bank</display-name>
 
-<description>Final Project </description>
+<description>Capstone Project </description>
 
 <servlet>
 <servlet-name>LoginUser</servlet-name>
