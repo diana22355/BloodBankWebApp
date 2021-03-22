@@ -104,6 +104,11 @@
 <servlet-class>bloodbank.AddBloodDonationServlet</servlet-class>
 </servlet>
 
+<servlet>
+<servlet-name>EditAppointmentInfo</servlet-name>
+<servlet-class>bloodbank.EditAppointmentInfoServlet</servlet-class>
+</servlet>
+
 <servlet-mapping>
 <servlet-name>LoginUser</servlet-name>
 <url-pattern>/LoginUser</url-pattern>
@@ -182,6 +187,11 @@
 <servlet-mapping>
 <servlet-name>AddBloodDonation</servlet-name>
 <url-pattern>/CreateBloodDonation</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>EditAppointmentInfo</servlet-name>
+<url-pattern>/EditUserAppointment</url-pattern>
 </servlet-mapping>
 
 </web-app>
